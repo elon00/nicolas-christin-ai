@@ -1,0 +1,51 @@
+{
+  "name": "nicolas-christin-ai-mcp",
+  "version": "1.0.0",
+  "description": "Nicolas Christin AI Model Context Protocol Server for Autonomous Cryptocurrency Forensics, Darknet Marketplace Economics, Socio-Technical Security & Cybercrime De-Anonymization Protocol",
+  "tools": [
+    {
+      "name": "audit_cryptocurrency_flow_forensics",
+      "description": "Trace transaction clustering, mixing heuristics, and wallet graph flows across blockchain ledgers to identify illicit fund routing",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "starting_tx_hash": {
+            "type": "string"
+          },
+          "cluster_depth": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "starting_tx_hash"
+        ]
+      }
+    },
+    {
+      "name": "disburse_cybercrime_investigation_bounty",
+      "description": "Trigger automated micro-escrow bounties for peer-reviewed blockchain forensics tools, darknet supply chain research, and user protection initiatives",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "category": {
+            "type": "string"
+          },
+          "recipient": {
+            "type": "string"
+          },
+          "amount_wei": {
+            "type": "string"
+          },
+          "proof_hash": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "category",
+          "recipient",
+          "amount_wei"
+        ]
+      }
+    }
+  ]
+}
